@@ -1,8 +1,90 @@
-h1{
-    text-align: center;
-    color:red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p{
-    font-size: 10px;
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background: #ddd5c9;
+}
+
+body > .wapper {
+    width: 45%;
+    height: auto;
+    padding: 10px;
+}
+
+body > .wapper > h1.headding_text {
+    text-align: center;
+    color: purple;
+}
+
+body > .wapper > .img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+body > .wapper > .img-container > img {
+    width: 10%;
+    height: 5%;
+    border-radius: 25%;
+}
+
+.b_blue {
+    color: blue;
+}
+
+.a_red {
+    color: red;
+}
+
+.n_navy {
+    color: navy;
+}
+
+.g_green {
+    color: green;
+}
+
+.l_lime {
+    color: lime;
+}
+
+.a_red {
+    color: red;
+}
+
+.d_darkcyan {
+    color: darkcyan;
+}
+
+.e_steelblue {
+    color: steelblue;
+}
+
+.s_slateblue {
+    color: slateblue;
+}
+
+.h_midnightblue {
+    color: midnightblue;
+}
+
+body > .wapper > .name_wapper > p > span {
+    color: blue;
+}
+
+body > .wapper > .country_wapper > .country_wapper_font > span.total {
+    font-style: italic;
 }
